@@ -1,6 +1,6 @@
 # Lab 8: Implementing Security with Authentication, Authorization, and Admission Control
 
-> **Note:** This README contains **instructions only**. YAML file contents are intentionally omitted.
+> **Note:** This README contains **instructions only**. YAML file contents are Availle in another files.
 
 ---
 
