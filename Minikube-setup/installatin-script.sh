@@ -257,6 +257,8 @@ start_minikube() {
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         print_info "Starting Minikube cluster..."
+        sudo usermod -aG docker $USER
+        newgrp docker
         minikube start --driver=docker
         
         if [ $? -eq 0 ]; then
